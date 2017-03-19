@@ -1,0 +1,66 @@
+# Reading C:/altera/15.0/modelsim_ase/tcl/vsim/pref.tcl
+# Loading project proj1
+# Compile of proj1.v was successful.
+vsim -gui work.ctr work.datapath work.proj1 work.proj1_tb work.ram work.registers
+# vsim -gui 
+# Start time: 14:20:45 on Oct 20,2015
+# Loading work.ctr
+# Loading work.datapath
+# Loading work.alu
+# Loading work.registers
+# Loading work.proj1
+# Loading work.ram
+# Loading work.proj1_tb
+run -all
+#                    5 Fetch_1
+#                   25 Fetch_2
+#                   35 Fetch_3
+#                   45 Decode
+#                   55 ExecLoad_1
+#                   65 ExecLoad_2
+#                   75 Fetch_1
+#                   85 Fetch_2
+#                   95 Fetch_3
+#                  105 Decode
+#                  115 ExecADD_1
+#                  125 ExecADD_2
+#                  135 Fetch_1
+#                  145 Fetch_2
+#                  155 Fetch_3
+#                  165 Decode
+#                  175 ExecOR_1
+#                  185 ExecOR_2
+#                  195 Fetch_1
+#                  205 Fetch_2
+#                  215 Fetch_3
+#                  225 Decode
+#                  235 ExecStore_1
+#                  245 Fetch_1
+#                  255 Fetch_2
+#                  265 Fetch_3
+#                  275 Decode
+#                  285 Fetch_1
+#                  295 Fetch_2
+#                  305 Fetch_3
+#                  315 Decode
+#                  325 ExecLoad_1
+#                  335 ExecLoad_2
+#                  345 Fetch_1
+#                  355 Fetch_2
+#                  365 Fetch_3
+#                  375 Decode
+#                  385 ExecJump
+#                  395 Fetch_1
+#                  405 Fetch_2
+#                  415 Fetch_3
+#                  425 Decode
+#                  435 ExecJump
+#                  445 Fetch_1
+# Final value
+# 
+# 0x00d    11
+# 
+# ** Note: $finish    : C:/altera/15.0/proj1.v(562)
+#    Time: 455 ps  Iteration: 0  Instance: /proj1_tb
+# 1
+# Break in Module proj1_tb at C:/altera/15.0/proj1.v line 562
